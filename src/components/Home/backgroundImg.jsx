@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './navbar.css'
+import './home.css'
 import backgroundImgA from '../Assets/backgroundImageB.jpg'
 
 
