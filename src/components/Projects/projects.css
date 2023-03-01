@@ -1,0 +1,47 @@
+
+
+.projects-container {
+    padding: 30px;
+    
+}
+.project-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.project-heading > h2 {
+   font-size: 30px;
+}
+.project-box {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  margin: 16px;
+  border-radius: 0.6rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+
+.project-box > img {
+    width: 300px;
+    height: 200px;
+    border-radius: 0.6rem;
+}
+
+.project-box > h3 {
+    margin: 0px;
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 18px;
+  
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-box > p {
+    padding:  0 0.6rem 0.6rem 0.6rem;
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+}
