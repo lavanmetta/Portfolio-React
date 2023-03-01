@@ -1,0 +1,76 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.contact-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: max-content;
+}
+
+.social-container {
+   width: 100%;
+}
+
+.name {
+    padding: 10px;
+}
+
+.name > h3 {
+   margin: 0px;
+}
+
+.lg {
+    font-size: 30px;
+    
+    padding: 10px;
+}
+.contact-me-container {
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 1rem;
+}
+
+.form-container > input {
+   height: 40px;
+   margin: 5px;
+   border-radius: 5px;
+   border: none;
+   padding-left: 15px;
+   outline: none;
+}
+.form-container > textarea {
+    height: 150px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding-left: 15px;
+}
+
+.reach-me {
+    padding: 1rem;
+}
