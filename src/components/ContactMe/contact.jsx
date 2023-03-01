@@ -1,7 +1,15 @@
 import React from 'react'
 import './contact.css';
+import { useEffect, useState } from 'react';
+import { getAboutMe } from '../Data/data';
 
 export default function Contact() {
+    const [about, setAbout] = useState('')
+
+    useEffect(() => {
+        setAbout(getAboutMe());
+    }, [])
+
   return (
     <div className='contact-container'>
        <div className='contact-heading'>
@@ -17,21 +25,21 @@ export default function Contact() {
               <i class="ri-contacts-fill lg"></i>
               <div className='name'>
                  <h3>Name</h3>
-                 <h3>Metta Lavan</h3>
+                 <h3>{about.name}</h3>
               </div>
               </div>
               <div className='name-container'>
-              <i class="ri-contacts-fill lg"></i>
+              <i class="ri-mail-fill lg"></i>
               <div className='name'>
                  <h3>Email</h3>
-                 <h3>lavanmetta11@gmail.com</h3>
+                 <h3>{about.email}</h3>
               </div>
               </div>
               <div className='name-container'>
-              <i class="ri-contacts-fill lg"></i>
+              <i class="ri-map-pin-fill lg"></i>
               <div className='name'>
                  <h3>Address</h3>
-                 <h3>Karimnagar, Telanagana</h3>
+                 <h3>{about.address}</h3>
               </div>
               </div>
            </div>
@@ -46,6 +54,7 @@ export default function Contact() {
                     <input type="text" placeholder='Email Address' />
                     <input type="text" placeholder='Phone Number' />
                     <textarea placeholder='Message...'/>
+                    <button>Send Message <i class="ri-send-plane-fill"></i></button>
                 </div>
             </form>
            </div>

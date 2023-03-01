@@ -39,8 +39,14 @@ const aboutMe = {
     heading: "My creative skills & experiences",
     aboutMe : "Hi, I'm Lavan, a software developer based in [insert location]. I have always been fascinated by technology and its ability to improve our lives, and I am passionate about creating software solutions that solve real-world problems. With [insert number] years of experience in the industry, I have had the opportunity to work on a wide range of projects, from web applications to mobile apps and everything in between. When I'm not coding, I enjoy [insert hobbies or interests]. I'm excited to continue learning and growing in my career as a software developer, and I look forward to the challenges and opportunities that lie ahead.",
     img: myProfile,
-    skillPara : "I am a React Js Developer with a passion for learning and can work with estimation of future tasks and client feedback. I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development Tools. I have a firm knowledge of JavaScript and React Js, Parcel js, Node js, Redux, HTML5, CSS3, Git, SASS, Tailwind CSS, Bootstrap, REST API, JSON, Axios, Adobe Photoshop and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology."
-
+    skillPara : "I am a React Js Developer with a passion for learning and can work with estimation of future tasks and client feedback. I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front-end Development Tools. I have a firm knowledge of JavaScript and React Js, Parcel js, Node js, Redux, HTML5, CSS3, Git, SASS, Tailwind CSS, Bootstrap, REST API, JSON, Axios, Adobe Photoshop and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.",
+    name: "Metta Lavan",
+    email:"lavanmetta111@gmail.com",
+    address:"Karimnagar, Telanagana",
+    type1:"Software Developer",
+    type2:"ReactJs Developer",
+    type3:"Enthusiastic",
+    type4:"Optimistic",
 }
 
 

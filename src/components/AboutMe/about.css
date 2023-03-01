@@ -16,6 +16,7 @@
 .para-picture-container {
     display: flex;
     flex-direction: row;
+    max-width: 1300px;
     justify-content: space-around;
 
 }
@@ -33,10 +34,12 @@
 
 .my-image {
     margin: 1rem;
+    
 }
 
 .para-container {
     margin: 1rem;
+    
 }
 
 .para-container > button {

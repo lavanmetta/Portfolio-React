@@ -1,23 +1,23 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-
+import { getAboutMe } from '../Data/data';
 const Intro = () => {
 
   return (
     <div className='intro-container'>
         <h4>Hello 👋 I'm</h4>
-        <h1>Metta Lavan</h1> 
+        <h1>{getAboutMe().name}</h1> 
         <div>
-        <span className='iam'>I am a</span>
+        <span className='iam'>I am a </span>
         <TypeAnimation
         sequence={[
-        ' Software Developer',
+        getAboutMe().type1,
         1000,
-        ' React Js Developer',
+        getAboutMe().type2,
         1000,
-        ' Enthusiastic',
+        getAboutMe().type3,
         1000,
-        ' Optimistic',
+        getAboutMe().type4,
         1000,
         ]}
     speed={50} 
