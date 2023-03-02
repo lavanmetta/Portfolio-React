@@ -62,4 +62,30 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .about-heading > h2 {
+        margin: 0px;
+    }
+    .my-image > img {
+        width: 280px;
+    }
+    .my-image {
+        display: flex;
+        justify-content: center;
+    }
+    .para-container {
+        margin: 0rem;
+    }
+    .para-container > h2 {
+        margin: 0px;
+        font-size: 1.5rem;
+    }
+    .para-container > p {
+        font-size: 0.8rem;
+        text-align: start;
+        
+        
+    }
+    .para-container > button {
+        width: 50%;
+    }
 }

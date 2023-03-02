@@ -84,9 +84,34 @@
     font-weight: 600;
     cursor: pointer;            
     width: 30%;
-    max-width: 40%;
+    max-width: 60%;
 }
 
 .reach-me {
     padding: 1rem;
+}
+
+@media (max-width: 768px)  {
+ .contact-heading > h2 {
+    margin: 0px;
+ }
+
+ .contact-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+ .social-container {
+    width: 100%;
+ }
+ .contact-me-container {
+    width: 100%;
+ }
+ .form-container > h4 {
+    margin: 5px;
+ }
+ .form-container > button {
+    width: 100%;
+ }
+
 }
