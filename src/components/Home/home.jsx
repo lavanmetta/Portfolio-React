@@ -23,10 +23,12 @@ class Home extends Component {
                      <BackgroundImg/>
                      <div className="navbar">
                         <div className="nav-logo">
-                            <h2>Metta Lavan</h2>
+                            <h2>M.Design</h2>
                         </div>
                         <button
-                            className="nav-toggle"
+                        className={`nav-toggle ${
+                            this.state.isNavbarOpen ? "nav-toggle-active" : ""
+                            }`}
                             onClick={this.toggleNavbar}
                         >
                         <i className="ri-menu-line nvt"></i>

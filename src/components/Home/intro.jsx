@@ -21,8 +21,9 @@ const Intro = () => {
         1000,
         ]}
     speed={50} 
-    style={{ fontSize: '2em', color:"crimson", fontWeight: "600" }}
+    style={{ color:"crimson", fontWeight: "600" }}
     wrapper="span" 
+    className='iam'
     repeat={Infinity}
   />
         </div>

@@ -77,12 +77,25 @@
     .nav-toggle {
         background-color: transparent;
         border: none;
+        text-align: center;
+        margin: 5px;
         display: block;
         color: white;
+        border-radius: 50px;
+        display: flex;
+        padding: 8px;
+    }
+
+    .nav-toggle-active {
+        background-image: linear-gradient(180deg, crimson, rgb(146, 11, 38));
+        transition: all 0.2s ease-in-out;
+    }
+    .navbar {
+        height: 65px;
     }
 
     .nvt {
-       font-size: 30px;
+       font-size: 26px;
     }
 
     .nav-links-close {
@@ -112,6 +125,18 @@
         transition: transform 0.5s ease;
       }
 
-      
+      .intro-container {
+        margin: 1rem;
+        width: 100%;
+      }
+      .intro-container > h1 {
+        font-size: 3rem;
+      }
+      .intro-container > h4 {
+        font-size: 2rem;
+      }
+     .iam {
+        font-size: 2rem;
+     }
 
 }  
