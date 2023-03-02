@@ -12,6 +12,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
     "react-owl-carousel": "^2.3.3",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.8.2",
@@ -20,6 +21,7 @@
     "react-type-animation": "^2.1.2",
     "react-uuid": "^2.0.0",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

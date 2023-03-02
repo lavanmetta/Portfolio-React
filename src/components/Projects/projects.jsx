@@ -2,9 +2,8 @@ import React from 'react'
 import './projects.css'
 import { getMyProject } from '../Data/data'
 import { useState, useEffect} from 'react'
-import OwlCarousel from 'react-owl-carousel';  
-import 'owl.carousel/dist/assets/owl.carousel.css';  
-import 'owl.carousel/dist/assets/owl.theme.default.css'; 
+import Carousel from 'react-elastic-carousel';
+
 
 export default function Projects() {
     const [projects, setProjects] = useState([]);
@@ -23,9 +22,9 @@ export default function Projects() {
          <h2>Projects I have done</h2>
        </div>
        <div className='projects'>
-       
-       {
-        
+     
+       <Carousel>
+                {
             projects.map(each => 
              
                 <div className='project-box' key={each.id}>
@@ -37,11 +36,11 @@ export default function Projects() {
              
                 )}
               
-             
+                </Carousel>
                   
        </div>
       
-    
+       
     </div>
   )
 }
