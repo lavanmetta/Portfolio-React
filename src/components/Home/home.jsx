@@ -29,7 +29,7 @@ class Home extends Component {
                             className="nav-toggle"
                             onClick={this.toggleNavbar}
                         >
-                        <i className="ri-menu-line"></i>
+                        <i className="ri-menu-line nvt"></i>
                         </button>
                         <div
                             className={`nav-links ${
