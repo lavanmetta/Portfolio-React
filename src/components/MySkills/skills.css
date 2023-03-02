@@ -80,12 +80,19 @@
     }
     .logos-container {
         width: 100%;
+        justify-content: center;
     }
     .skill-para-container {
         width: 100%;
     }
     .skill-para-container > h2 {
         font-size: 1.5rem;
+    }
+
+    .logos-container > img {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
     }
         
   }
