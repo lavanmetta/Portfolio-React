@@ -22,21 +22,21 @@ export default function Contact() {
               <p>Discuss a Project or just want to say Hi? My inbox is open for all.</p>
               </div>
               <div className='name-container'>
-              <i class="ri-contacts-fill lg"></i>
+              <i className="ri-contacts-fill lg"></i>
               <div className='name'>
                  <h3>Name</h3>
                  <h3>{about.name}</h3>
               </div>
               </div>
               <div className='name-container'>
-              <i class="ri-mail-fill lg"></i>
+              <i className="ri-mail-fill lg"></i>
               <div className='name'>
                  <h3>Email</h3>
                  <h3>{about.email}</h3>
               </div>
               </div>
               <div className='name-container'>
-              <i class="ri-map-pin-fill lg"></i>
+              <i className="ri-map-pin-fill lg"></i>
               <div className='name'>
                  <h3>Address</h3>
                  <h3>{about.address}</h3>
@@ -54,7 +54,7 @@ export default function Contact() {
                     <input type="text" placeholder='Email Address' />
                     <input type="text" placeholder='Phone Number' />
                     <textarea placeholder='Message...'/>
-                    <button>Send Message <i class="ri-send-plane-fill"></i></button>
+                    <button>Send Message <i className="ri-send-plane-fill"></i></button>
                 </div>
             </form>
            </div>

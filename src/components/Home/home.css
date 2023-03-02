@@ -65,3 +65,47 @@
 .iam {
     font-size: 2rem;
 }
+
+
+
+  .nav-toggle {
+    display: none;
+  }
+
+
+  @media (max-width: 768px) {
+    .nav-toggle {
+        background-color: white;
+        display: block;
+    }
+
+    .nav-links-close {
+       visibility: hidden;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: 0px;
+        padding: 0rem; 
+        z-index: 100;
+        transform: translateX(-100%);
+        transition: all 0.4s ease-in-out;
+      }
+
+      .nav-link-a {
+        
+        transform: translateX(0);
+        transition: transform 0.5s ease;
+      }
+
+      
+
+}  

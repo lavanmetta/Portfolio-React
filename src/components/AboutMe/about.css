@@ -56,3 +56,10 @@
 .para-container > button:hover {
 
 }
+
+@media only screen and (max-width: 768px) {
+    .para-picture-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
