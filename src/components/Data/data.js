@@ -85,6 +85,18 @@ const projects = [
         projectImg : "https://res.cloudinary.com/dxm2oqlbo/image/upload/v1677349506/calc_zfrrbr.png",
         projectName: "Calculator",
         projectDescribe: "Description  Description of project and some of details about that project and used technologies and whatever you want of project and some of details about that project and used technologies and whatever you want"
+    },
+    {
+        id: 4,
+        projectImg : "https://res.cloudinary.com/dxm2oqlbo/image/upload/v1677349506/calc_zfrrbr.png",
+        projectName: "Calculator",
+        projectDescribe: "Description  Description of project and some of details about that project and used technologies and whatever you want of project and some of details about that project and used technologies and whatever you want"
+    },
+    {
+        id: 5,
+        projectImg : "https://res.cloudinary.com/dxm2oqlbo/image/upload/v1677349506/calc_zfrrbr.png",
+        projectName: "Calculator",
+        projectDescribe: "Description  Description of project and some of details about that project and used technologies and whatever you want of project and some of details about that project and used technologies and whatever you want"
     }
 ]
 
