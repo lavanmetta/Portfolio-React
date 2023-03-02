@@ -33,7 +33,7 @@ class Home extends Component {
                         </button>
                         <div
                             className={`nav-links ${
-                            this.state.isNavbarOpen ? "nav-links-close" : "nav-link-a"
+                            !this.state.isNavbarOpen ? "nav-links-close" : "nav-link-a"
                             }`}
                         >
                             {getLinks().map((link) => (
