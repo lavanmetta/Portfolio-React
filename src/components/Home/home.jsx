@@ -39,7 +39,7 @@ class Home extends Component {
                             }`}
                         >
                             {getLinks().map((link) => (
-                            <NavLink key={uuid()} href={link.nav}>
+                            <NavLink key={uuid()} to={link.nav}>
                                 {link.name}
                             </NavLink>
                             ))}
