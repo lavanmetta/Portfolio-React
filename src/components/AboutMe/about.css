@@ -39,6 +39,7 @@
 
 .para-container {
     margin: 1rem;
+    padding: 1rem;
     
 }
 
@@ -55,6 +56,13 @@
 
 .para-container > button:hover {
 
+}
+
+.para-container > p {
+    text-align:justify;
+    word-break: break-all;
+    
+    
 }
 
 @media only screen and (max-width: 768px) {

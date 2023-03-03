@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css';
 import { useEffect, useState } from 'react';
 import { getAboutMe } from '../Data/data';
+import SocialMedia from '../SocialMedia/socialmedia';
 
 export default function Contact() {
     const [about, setAbout] = useState('')
@@ -11,15 +12,15 @@ export default function Contact() {
     }, [])
 
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id="contact">
        <div className='contact-heading'>
           <h2>Contact Me</h2>
        </div>
        <div className='contact-details'>
            <div className='social-container'>
            <div className='reach-me'>
-              <h2>Reach Out me</h2>
-              <p>Discuss a Project or just want to say Hi? My inbox is open for all.</p>
+              <h2>Reach me via</h2>
+              <p>Feel free to message me or inquire about hiring me for your team.</p>
               </div>
               <div className='name-container'>
               <i className="ri-contacts-fill lg"></i>
@@ -42,6 +43,7 @@ export default function Contact() {
                  <h3>{about.address}</h3>
               </div>
               </div>
+              <SocialMedia/>
            </div>
 
            <div className='contact-me-container'>
@@ -49,7 +51,7 @@ export default function Contact() {
            <form>
            
                 <div className='form-container'>
-                <h4>Feel free to Message Me</h4>
+                <h4><i class="ri-service-fill lg-h"></i> I welcome your messages and feedback</h4>
                     <input type="text" placeholder='Full Name' />
                     <input type="text" placeholder='Email Address' />
                     <input type="text" placeholder='Phone Number' />

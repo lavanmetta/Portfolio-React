@@ -13,13 +13,13 @@ const [about, setAbout] = useState('')
     
 
   return (
-    <div className='about-container'>
+    <div className='about-container' id="about">
       <div className='about-heading'>
       <h2>About Me</h2>
       </div>
       <div className='para-picture-container'>
          <div className='para-container'>
-            <h2>{about.heading}</h2>
+            <h2>{about.about}</h2>
             <p>{about.aboutMe}</p>
             <button>Download CV</button>
             

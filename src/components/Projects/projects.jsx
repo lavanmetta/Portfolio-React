@@ -13,13 +13,13 @@ export default function Projects() {
     }, [])
 
     
-
+ 
    
 
   return (
-    <div className='projects-container'>
+    <div className='projects-container' id="projects">
        <div className='project-heading'>
-         <h2>Projects I have done</h2>
+         <h2>Few Project Samples</h2>
        </div>
        <div className='projects'>
      
@@ -36,9 +36,11 @@ export default function Projects() {
              
                 )}
               
-              
+               
                   
        </div>
+
+      
       
        
     </div>

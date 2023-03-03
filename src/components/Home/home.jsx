@@ -1,27 +1,52 @@
 import React, { Component } from 'react'
 import './home.css'
 import BackgroundImg from './backgroundImg';
-import {NavLink} from 'react-router-dom'
 import { getLinks } from '../Data/data';
 import uuid from 'react-uuid';
 import Intro from './intro';
 
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 class Home extends Component {
     state = {
-        isNavbarOpen: false
+        isNavbarOpen: false,
+        bgColor : 'ntg'
       };
 
       toggleNavbar = () => {
         this.setState({ isNavbarOpen: !this.state.isNavbarOpen });
+        
+      };
+
+      closeNavbar = () => {
+        this.setState({ isNavbarOpen: !this.state.isNavbarOpen });
+      }
+
+      componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+      }
+    
+      componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+      }
+    
+      handleScroll = () => {
+        const scrollTop = window.pageYOffset;
+        if (scrollTop > 0) {
+          this.setState({ bgColor: "bg-change" });
+        } else if (scrollTop === 0) {
+          this.setState({ bgColor: "ntg" });
+        }
       };
 
 
     render() { 
+        
         return (
             <React.Fragment>
-                <div className="home-container">
+                <div className="home-container" id="home">
                      <BackgroundImg/>
-                     <div className="navbar">
+                     <div className={`navbar click-text ${this.state.bgColor} ` }  >
                         <div className="nav-logo">
                             <h2>M.Design</h2>
                         </div>
@@ -39,9 +64,9 @@ class Home extends Component {
                             }`}
                         >
                             {getLinks().map((link) => (
-                            <NavLink key={uuid()} to={link.nav}>
+                            <AnchorLink key={uuid()} href={link.nav} onClick={this.closeNavbar}>
                                 {link.name}
-                            </NavLink>
+                            </AnchorLink>
                             ))}
                         </div>
                         </div>

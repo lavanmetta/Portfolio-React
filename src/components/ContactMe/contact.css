@@ -37,6 +37,14 @@
     padding: 10px;
 }
 
+.form-container > h4 {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+ }
+
 .name > h3 {
    margin: 0px;
 }
@@ -45,6 +53,13 @@
     font-size: 30px;
     
     padding: 10px;
+}
+
+.lg-h{
+    font-size: 18px;
+    margin: 0px;
+    margin-right: 5px;
+   
 }
 .contact-me-container {
     width: 50%;

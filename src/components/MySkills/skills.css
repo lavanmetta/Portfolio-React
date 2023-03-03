@@ -46,6 +46,8 @@
 
 .skill-para-container > p {
     color: white;
+    text-align:justify;
+        word-break: break-all;
 }
 
 .skill-logo-container {

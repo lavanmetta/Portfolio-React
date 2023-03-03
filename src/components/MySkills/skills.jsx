@@ -15,7 +15,7 @@ const Skills = () => {
     }, [])
 
   return (
-    <div className='skills-container'>
+    <div className='skills-container' id="skills">
        <div className='skill-heading'>
         <h2>My Skills</h2>
        </div>
@@ -30,7 +30,7 @@ const Skills = () => {
             }
         </div>
         <div className='skill-para-container'>
-            <h2>{about.heading}</h2>
+            <h2>{about.skill}</h2>
             <p>{about.skillPara}</p>
         </div>
        </div>
