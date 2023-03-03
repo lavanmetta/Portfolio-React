@@ -2,7 +2,7 @@ import React from 'react'
 import './projects.css'
 import { getMyProject } from '../Data/data'
 import { useState, useEffect} from 'react'
-import Carousel from 'react-elastic-carousel';
+
 
 
 export default function Projects() {
@@ -23,7 +23,7 @@ export default function Projects() {
        </div>
        <div className='projects'>
      
-       <Carousel>
+
                 {
             projects.map(each => 
              
@@ -36,7 +36,7 @@ export default function Projects() {
              
                 )}
               
-                </Carousel>
+              
                   
        </div>
       

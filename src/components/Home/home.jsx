@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './home.css'
 import BackgroundImg from './backgroundImg';
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import {NavLink} from 'react-router-dom'
 import { getLinks } from '../Data/data';
 import uuid from 'react-uuid';
 import Intro from './intro';
@@ -39,9 +39,9 @@ class Home extends Component {
                             }`}
                         >
                             {getLinks().map((link) => (
-                            <AnchorLink key={uuid()} href={link.nav}>
+                            <NavLink key={uuid()} href={link.nav}>
                                 {link.name}
-                            </AnchorLink>
+                            </NavLink>
                             ))}
                         </div>
                         </div>
