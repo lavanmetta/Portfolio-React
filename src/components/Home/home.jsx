@@ -48,7 +48,8 @@ class Home extends Component {
                      <BackgroundImg/>
                      <div className={`navbar click-text ${this.state.bgColor} ` }  >
                         <div className="nav-logo">
-                            <h2>M.Design</h2>
+                            <h2>Lavan
+                            <span className='design-span'>Designs</span></h2>
                         </div>
                         <button
                         className={`nav-toggle ${
