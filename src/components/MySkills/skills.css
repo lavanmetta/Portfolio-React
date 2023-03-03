@@ -94,5 +94,11 @@
         height: 70px;
         margin: 10px;
     }
+    .skill-para-container > p {
+        font-size: 0.9rem;
+        text-align:justify;
+        word-break: break-all;
+        
+    }
         
   }

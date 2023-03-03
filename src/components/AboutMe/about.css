@@ -80,12 +80,16 @@
         font-size: 1.5rem;
     }
     .para-container > p {
-        font-size: 0.8rem;
-        text-align: start;
+        font-size: 0.9rem;
+        text-align:justify;
+        word-break: break-all;
         
         
     }
     .para-container > button {
         width: 50%;
+    }
+    .about-container {
+        padding: 20px;
     }
 }

@@ -113,5 +113,24 @@
  .form-container > button {
     width: 100%;
  }
-
+ .name > h3 {
+    font-size: 1rem;
+ }
+.contact-container {
+    padding: 20px;
+}
+.form-container {
+    padding: 0.3rem;
+}
+.reach-me {
+    padding: 0.3rem;
+}
+.reach-me > p {
+    font-size: 0.9rem;
+    margin: 0px 0px 10px 0px;
+}
+.reach-me > h2 {
+    font-size: 1.2em;
+    margin: 15px 0px 0px 0px;
+}
 }
