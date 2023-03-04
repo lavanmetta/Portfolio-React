@@ -47,19 +47,26 @@
     background-color: crimson;
     border: none;
     color: white;
-    width: 30%;
     height: 45px;
     border: 2px solid crimson;
     margin: 10px;
     border-radius: 0.5rem;
     font-weight: bold;
     cursor: pointer;
+    padding: 0px 20px 0px 20px;
 }
 
 .skill-buttons  > a > button:hover {
      background-color: white;
      color: black;
      transition: all 0.5s ease-in-out;
+}
+
+.skill-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
 }
 
 .para-container > p {
@@ -99,7 +106,8 @@
         
     }
     .skill-buttons > a > button {
-        width: 50%;
+       
+        margin: 5px;
     }
     .about-container {
         padding: 20px;

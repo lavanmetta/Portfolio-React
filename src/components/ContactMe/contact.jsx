@@ -51,7 +51,7 @@ export default function Contact() {
            <form>
            
                 <div className='form-container'>
-                <h4><i class="ri-service-fill lg-h"></i> I welcome your messages and feedback</h4>
+                <h4><i className="ri-service-fill lg-h"></i> I welcome your messages and feedback</h4>
                     <input type="text" placeholder='Full Name' />
                     <input type="text" placeholder='Email Address' />
                     <input type="text" placeholder='Phone Number' />
