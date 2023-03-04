@@ -23,7 +23,7 @@ const [about, setAbout] = useState('')
             <h2>{about.about}</h2>
             <p>{about.aboutMe}</p>
             <div className='skill-buttons'>
-            <Link><button>Download CV</button></Link>
+            <a href={about.resume} download ><button>Download CV</button></a>
             <Link to="/journey"><button>My Journey</button></Link>
             </div>
             

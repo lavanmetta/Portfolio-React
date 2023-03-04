@@ -48,6 +48,7 @@ const aboutMe = {
     type2:"Enthusiastic",
     type3:"React JS",
     type4:"Front-End Developer",
+    resume: 'https://drive.google.com/file/d/1wEZ3ZzDmVYhERqJDDJGNu765zszmfBuG/view?usp=sharing'
 }
 
 
