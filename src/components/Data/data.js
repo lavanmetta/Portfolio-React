@@ -121,6 +121,85 @@ const socialMedia = [
 ]
 
 
+
+
+const items = [
+    
+    {
+    title: "2021-2022",
+    cardTitle: "Full-stack Development",
+    cardSubtitle:"CCBP Intensive Program",
+    cardDetailedText: "Full Stack Development course on CCBP Intensive program, I have gained a wealth of knowledge and hands-on experience in front-end and back-end technologies. i have learned how to use HTML and CSS to create visually appealing web pages, and React to build interactive user interfaces. On the back-end side, i have learned Node.js for server-side development and SQL for managing databases. Additionally, i have gained experience working with GitHub to collaborate on code projects and manage version control. With my newly acquired skills and certifications.my portfolio of projects demonstrates my ability to build robust web applications and my commitment to continuous learning and improvement.",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: "https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18146.jpg?w=900&t=st=1677916775~exp=1677917375~hmac=b499b94411e765de308d3ab4ecc7ae8473a349b2685b9e6fb67d56addc807a08"
+      }
+    }
+  },
+
+  {
+    title: "2019-2021",
+    cardTitle: "Post-Graduation",
+    cardSubtitle:"Mahatma Gandhi University",
+    cardDetailedText: "After completing my undergraduate degree, I decided to pursue a post-graduation program. During my time at university, I had the opportunity to learn a variety of skills and gain practical experience through extracurricular activities.",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: "https://img.freepik.com/free-vector/happy-diverse-students-celebrating-graduation-from-school_74855-5853.jpg?w=900&t=st=1677916935~exp=1677917535~hmac=c4c227009767f31e62eb269264a63242aa0e3216b8021dad5af359c0dcbca89f"
+      }
+    }
+  },
+
+  {
+    title: "2016-2019",
+    cardTitle: "Bachelor's Degree",
+    cardSubtitle:"Vivekananda Degree and Pg College",
+    cardDetailedText: "I completed my 3-year degree program in 2019, and it was a transformative experience that taught me a lot about myself and the world around me. Throughout my studies, I had the opportunity to learn a diverse range of subjects. Beyond the classroom, I participated in a variety of extracurricular activities, including a task program where I worked with other students and learned team management soft skills. These experiences helped me develop my leadership skills, as well as my ability to work collaboratively with others towards a common goal. Additionally, I learned a lot about soft skills like time management, communication, and critical thinking, which have proven to be valuable assets in both my personal and professional life. Overall, my 3-year degree program was an enriching experience that provided me with a strong foundation for my future endeavors.",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: "https://img.freepik.com/free-vector/graduation-concept-illustration_114360-625.jpg?w=740&t=st=1677916982~exp=1677917582~hmac=e7be70fca3a86de850f4263893e2cb645a46a6fbf7e66e209a91491861d7d670"
+      }
+    }
+  },
+
+
+  {
+    title: "2014-2016",
+    cardTitle: "Intermediate",
+    cardSubtitle:"SR Junior College",
+    cardDetailedText: "After completing my secondary education, I enrolled in an intermediate program that was a pivotal experience in my personal and academic growth. During my two years in the program, I had the opportunity to study a variety of subjects, including physics, science. I also participated in extracurricular activities sports teams. In addition to academic and extracurricular pursuits, I also learned valuable life skills such as time management and self-discipline. These skills have proven useful in my personal and professional life, as they allow me to set goals and effectively manage my time to achieve them. Overall, my intermediate education provided me with a solid foundation for my academic and personal growth, and I look back on that time with fondness and gratitude.",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: "https://img.freepik.com/free-vector/students-concept-illustration_114360-8327.jpg?w=900&t=st=1677917174~exp=1677917774~hmac=4c202cce1f138af09ba7dab88d6c5b0023cd8e48889d4e0c00b538ed7d7932de"
+      }
+    }
+  },
+
+  {
+    title: "2013-2014",
+    cardTitle: "Secondary School Certificate",
+    cardSubtitle:"ZPHS High School",
+    cardDetailedText: "My secondary school education (SSC) was a formative period in my life that helped shape my academic and personal development. During my time in secondary school, I had the opportunity to study a variety of subjects, including mathematics, science, and language arts. I also participated in extracurricular activities such as sports and Quiz games.I learned important life lessons from my teachers such as time management and self-discipline, which have proven useful in my personal and professional life. Overall, I am grateful for the opportunities and experiences I had during that time.    ",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: "https://img.freepik.com/premium-vector/student-wearing-uniform-character-collection_180264-155.jpg?w=996"
+      }
+    }
+  },
+
+
+];
+
+
+export function getTimeline() {
+    return items
+}
+
+
 export function getSocialMedia() {
     return socialMedia
 }

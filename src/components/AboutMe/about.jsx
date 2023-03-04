@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css';
 import { useEffect, useState } from 'react';
 import { getAboutMe } from '../Data/data';
+import { Link } from 'react-router-dom'
 
 const About = () =>  {
 const [about, setAbout] = useState('')
@@ -21,7 +22,11 @@ const [about, setAbout] = useState('')
          <div className='para-container'>
             <h2>{about.about}</h2>
             <p>{about.aboutMe}</p>
-            <button>Download CV</button>
+            <div className='skill-buttons'>
+            <Link><button>Download CV</button></Link>
+            <Link to="/journey"><button>My Journey</button></Link>
+            </div>
+            
             
          </div>
          <div className='my-image'>

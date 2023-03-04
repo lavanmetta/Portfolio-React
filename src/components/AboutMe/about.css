@@ -43,19 +43,23 @@
     
 }
 
-.para-container > button {
+.skill-buttons > a > button {
     background-color: crimson;
     border: none;
     color: white;
     width: 30%;
-    height: 40px;
+    height: 45px;
+    border: 2px solid crimson;
+    margin: 10px;
     border-radius: 0.5rem;
     font-weight: bold;
     cursor: pointer;
 }
 
-.para-container > button:hover {
-
+.skill-buttons  > a > button:hover {
+     background-color: white;
+     color: black;
+     transition: all 0.5s ease-in-out;
 }
 
 .para-container > p {
