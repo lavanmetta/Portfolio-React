@@ -55,6 +55,18 @@
     padding: 10px;
 }
 
+.msg {
+    font-size: 16px;
+    margin: 5px;
+    color: rgb(28, 230, 28);
+}
+
+.msg-e {
+    font-size: 16px;
+    margin: 5px;
+    color: rgb(255, 0, 0);
+}
+
 .lg-h{
     font-size: 18px;
     margin: 0px;
