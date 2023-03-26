@@ -9,6 +9,7 @@ const [about, setAbout] = useState('')
 
     useEffect(() => {
         setAbout(getAboutMe());
+        console.log('about')
     }, [])
     
     

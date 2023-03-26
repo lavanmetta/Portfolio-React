@@ -12,6 +12,7 @@ const Skills = () => {
     useEffect(() => {
         setSkill(getMySkills())
         setAbout(getAboutMe());
+        console.log('skill')
     }, [])
 
   return (
