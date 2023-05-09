@@ -3,7 +3,7 @@ import './projects.css'
 import { getMyProject } from '../Data/data'
 import { useState, useEffect} from 'react'
 
-
+import Slider from "react-slick";
 
 export default function Projects() {
     const [projects, setProjects] = useState([]);
@@ -12,8 +12,56 @@ export default function Projects() {
         setProjects(getMyProject())
     }, [])
 
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      
+      
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            initialSlide: 3,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    };
+
     
- 
+    const renderProjects = () => {
+      return (
+        projects.map((each) => (
+          <div className="project-box" key={each.id}>
+            <img src={each.projectImg} alt="img" />
+            <h3>{each.projectName}</h3>
+            <p>{each.projectDescribe}</p>
+          </div>
+        ))
+      );
+    };
+    
    
 
   return (
@@ -24,22 +72,15 @@ export default function Projects() {
        <div className='projects'>
      
 
-                {
-            projects.map(each => 
-             
-                <div className='project-box' key={each.id}>
-               <img src={each.projectImg} alt="img" />
-               <h3>{each.projectName}</h3>
-               <p>{each.projectDescribe}</p>
-              </div>
-             
-             
-                )}
-              
+       <Slider {...settings}>
+       {renderProjects()}
+      </Slider>
                
+              
                   
        </div>
-
+       
+     
       
       
        

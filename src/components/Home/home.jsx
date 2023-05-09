@@ -49,14 +49,14 @@ class Home extends Component {
                      <div className={`navbar click-text ${this.state.bgColor} ` }  >
                         <div className="nav-logo">
                             <h2>Lavan
-                            <span className='design-span'>Designs</span></h2>
+                            </h2>
                         </div>
                         <button
                         className={`nav-toggle ${
                             this.state.isNavbarOpen ? "nav-toggle-active" : ""
                             }`}
                             onClick={this.toggleNavbar}
-                        >
+                       >
                         <i className="ri-menu-line nvt"></i>
                         </button>
                         <div
