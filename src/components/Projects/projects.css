@@ -83,13 +83,22 @@
   .project-box {
     width: 100% !important;
     height: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .projects-container {
     padding: 10px;
   }
- 
+  .slick-dots, .slick-next, .slick-prev {
+    position: static !important;
+    display: block;
+    padding: 0;
+  }
   .slick-list {
     margin: 0 -7px !important;
+  }
+  .slick-next {
+    display: none !important;
   }
   
   .slick-slide > div {
