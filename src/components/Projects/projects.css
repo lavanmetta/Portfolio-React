@@ -18,7 +18,8 @@
 .project-box {
   background-color: rgb(255, 255, 255);
   width: 300px !important;
-  margin: 16px;
+  height: 420px;
+  
   cursor: pointer;
   border: 2px solid transparent;
   border-radius: 0.6rem;
@@ -75,10 +76,24 @@
     margin: 0px;
   }
   .project-box > img {
-    width: 300px;
+    width: 100%;
+    height: 200px;
     object-fit: fill;
   }
   .project-box {
-    width: 300px;
+    width: 100% !important;
+    height: 100%;
   }
+  .projects-container {
+    padding: 10px;
+  }
+ 
+  .slick-list {
+    margin: 0 -7px !important;
+  }
+  
+  .slick-slide > div {
+    padding: 0 7px !important;
+  }
+
 }
