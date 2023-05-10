@@ -8,7 +8,7 @@ import html from "../Assets/logo/html.png";
 import css from "../Assets/logo/css.png";
 import sql from "../Assets/logo/sql.png";
 import react from "../Assets/logo/react.png";
-
+import pr4 from '../Assets/pr4.png'
 
 const links = [
     {
@@ -74,20 +74,30 @@ const projects = [
         id: 1,
         projectImg : "https://res.cloudinary.com/dxm2oqlbo/image/upload/v1659881587/InShot_20220807_193959982_1_wipxgw.jpg",
         projectName: "Food Munch",
+        link: 'https://lavanfoodmunch1.ccbp.tech',
         projectDescribe: "Food Munch is a responsive project for selecting food items, built using HTML, CSS, and Bootstrap for accessibility and a user-friendly interface."
     },
     {
         id: 2,
         projectImg : "https://res.cloudinary.com/dxm2oqlbo/image/upload/v1661005639/IMG-20220820-WA0035_v7vkl5.jpg",
         projectName: "Covid Dashboard",
+        link: 'https://lavancovid19.ccbp.tech/',
         projectDescribe: "COVID-19 dashboard, built with React JS, displays state-wise data on confirmed, active, and recovered cases, sourced from RESTful APIs. "
     },
     {
         id: 3,
         projectImg : "https://res.cloudinary.com/dxm2oqlbo/image/upload/v1677349506/calc_zfrrbr.png",
         projectName: "Calculator",
+        link: '/',
         projectDescribe: "Simple calculator project was built using pure JavaScript, HTML, and CSS, featuring basic arithmetic functions and a user-friendly interface."
     },
+    {
+      id: 4,
+      projectImg : pr4,
+      projectName: "MoviesBro",
+      link: 'https://moviesbro.vercel.app/',
+      projectDescribe: "Movie website using React, CSS, and HTML, with Redux for state management. retrieves data from an API and search functionality, React Routes for easy navigation, and an error page."
+  },
     
    
 ]
